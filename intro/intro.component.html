@@ -1,0 +1,6 @@
+<h1 class="colorit">Hello this is 2-way-binding without using "ngModel".
+    ngModel is a inbuild implementaion of combination of property binding and event binding.
+    to use ngModel we need to import "FormsModule" from '@angular/forms' and need to register it in the imports in the imports in the root component that is the app component "app.module.ts".
+</h1>
+<input type="text" [(ngModel)]="txt"/>
+<h2>{{txt}}</h2>
